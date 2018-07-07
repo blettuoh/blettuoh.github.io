@@ -1,0 +1,26 @@
+.Chris {
+  grid-column: 1 / span 1;
+  background-image: url('../assets/images/third-slide/chris-bell-pics/chris-bell-car.jpg');
+  background-size: cover;
+}
+
+.Bell {
+  grid-column: 2 / span 1;
+  background-image: url('../assets/images/third-slide/chris-bell-pics/Chris-Bell-christ.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.t {
+  grid-column: 3 / span 1;
+  background-image: url('../assets/images/third-slide/chris-bell-pics/chris-bell-band.jpg');
+  background-size: cover;
+}
+
+.v {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  background-image: url('../assets/images/third-slide/chris-bell-pics/chris-bell-sit.png');
+  background-size: cover;
+  background-position: center;
+}

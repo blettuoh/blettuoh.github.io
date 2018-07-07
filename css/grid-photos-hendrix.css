@@ -1,0 +1,25 @@
+.e {
+  grid-column: 1 / span 1;
+  background-image: url('../assets/images/third-slide/hendrix-pics/hendrix-live.jpeg.jpg');
+  background-size: cover;
+}
+
+.f {
+  grid-column: 2 / span 1;
+  background-image: url('../assets/images/third-slide/hendrix-pics/hendrix-live1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.g {
+  grid-column: 3 / span 1;
+  background-image: url('../assets/images/third-slide/hendrix-pics/hendrix-old.jpg');
+  background-size: cover;
+}
+
+.y {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  background-image: url('../assets/images/third-slide/hendrix-pics/jimi-hendrix-in-a-club.jpg');
+  background-size: cover;
+}

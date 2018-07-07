@@ -1,0 +1,25 @@
+.kurt {
+  grid-column: 1 / span 1;
+  background-image: url('../assets/images/third-slide/kurt-kobein-pics/Kurt-Cobain-Fullsizejpg.jpg');
+  background-size: cover;
+}
+
+.cobain {
+  grid-column: 2 / span 1;
+  background-image: url('../assets/images/third-slide/kurt-kobein-pics/kurt-cobain-live.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.grunge {
+  grid-column: 3 / span 1;
+  background-image: url('../assets/images/third-slide/kurt-kobein-pics/live-play.jpg');
+  background-size: cover;
+}
+
+.live-play {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  background-image: url('../assets/images/third-slide/kurt-kobein-pics/cobain-people.jpg');
+  background-size: cover;
+}

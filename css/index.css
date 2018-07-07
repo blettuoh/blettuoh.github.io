@@ -1,0 +1,115 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Dancing+Script|Montserrat:500');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* first slide */
+
+.firstSlide {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/first-slide/DoorLiveTitle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 200px;
+  color: antiquewhite;
+}
+
+.quote {
+  font-family: 'Bree Serif', serif;
+}
+
+#author {
+  font-family: 'Dancing Script', cursive;
+  padding-left: 150px;
+}
+/* the end of first slide */
+
+
+/* Second Slide */
+
+.secondSlide {
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  border: none;
+  height: 0;
+  margin: 0;
+}
+
+.text {
+  text-align: center;
+  margin: 2.5vmin 20vmin;
+  padding: 1vh;
+  font-family: 'Bree Serif', serif;
+  border: 2px solid orange;
+  overflow-y: hidden;
+}
+
+.images {
+  margin: 0 20px;
+  margin-top: 2.5vh
+}
+
+.faces {
+  /* width: 70vh; */
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.slick-prev .slick-arrow {
+  background: black;
+  width: 2vh;
+  height: 2vh;
+}
+
+button {
+  margin: 1vh;
+  width: 2vh !important;
+  height: 2vh !important;
+}
+
+button:before {
+  font-size: 16px !important;
+  color: black !important;
+}
+
+#club {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.third-slide {
+
+}
+
+.third-slide-height {
+  height: 100%;
+  width: 100%;
+}
+
+.appearedSlide {
+  /* background: red; */
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.activeSlide {
+  display: block;
+}

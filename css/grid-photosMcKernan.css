@@ -1,0 +1,26 @@
+.Ron {
+  grid-column: 1 / span 1;
+  background-image: url('../assets/images/third-slide/ron-mckernan/hippie-things.jpg');
+  background-size: cover;
+}
+
+.McKernan {
+  grid-column: 2 / span 1;
+  background-image: url('../assets/images/third-slide/ron-mckernan/ron-in-dark.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.Charles {
+  grid-column: 3 / span 1;
+  background-image: url('../assets/images/third-slide/ron-mckernan/mckernan-moustouch.jpg');
+  background-size: cover;
+}
+
+.Grateful-Dead {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  background-image: url('../assets/images/third-slide/ron-mckernan/Grateful-Dead.jpg');
+  background-size: cover;
+  background-position: center;
+}

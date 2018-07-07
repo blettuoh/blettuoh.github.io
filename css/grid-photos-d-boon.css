@@ -1,0 +1,25 @@
+.D {
+  grid-column: 1 / span 1;
+  background-image: url('../assets/images/third-slide/d-boon-pics/D-boon-jump.jpg');
+  background-size: cover;
+}
+
+.Boon {
+  grid-column: 2 / span 1;
+  background-image: url('../assets/images/third-slide/d-boon-pics/d-boon-playing.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.gut {
+  grid-column: 3 / span 1;
+  background-image: url('../assets/images/third-slide/d-boon-pics/fight-with-your-balls.jpg');
+  background-size: cover;
+}
+
+.balls {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  background-image: url('../assets/images/third-slide/d-boon-pics/desolation-center.jpg');
+  background-size: cover;
+}

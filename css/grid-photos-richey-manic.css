@@ -1,0 +1,25 @@
+.richey {
+  grid-column: 1 / span 1;
+  background-image: url('../assets/images/third-slide/richey-manic-pics/richey-edwards-arm.jpeg');
+  background-size: cover;
+}
+
+.manic {
+  grid-column: 2 / span 1;
+  background-image: url('../assets/images/third-slide/richey-manic-pics/richey-photo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.street {
+  grid-column: 3 / span 1;
+  background-image: url('../assets/images/third-slide/richey-manic-pics/richey-sit.jpg');
+  background-size: cover;
+}
+
+.l {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  background-image: url('../assets/images/third-slide/richey-manic-pics/manic-street-live.jpg');
+  background-size: cover;
+}

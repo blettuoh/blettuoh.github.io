@@ -1,0 +1,72 @@
+.grid-container {
+  display: grid;
+  height: 50vh;
+  width: 90vh;
+  margin-left: 10vh;
+  margin-top: 20vh;
+  position: absolute;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50% 80%;
+}
+
+.a {
+  grid-column: 1 / span 1;
+  background-image: url('../assets/images/third-slide/morrison-pics/doors-live-for-third-slide.jpg');
+  background-size: cover;
+}
+
+.b {
+  grid-column: 2 / span 1;
+  background-image: url('../assets/images/third-slide/morrison-pics/morrison-smoke.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.c {
+  grid-column: 3 / span 1;
+  background-image: url('../assets/images/third-slide/morrison-pics/doors-full.jpg');
+  background-size: cover;
+}
+
+.d {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  background-image: url('../assets/images/third-slide/morrison-pics/doors-colour.jpg');
+  background-size: cover;
+}
+
+.artist-bio {
+  /* padding-left: 100vh; */
+  margin-left: 105vh;
+  border: 2px solid orange;
+  padding: 1vh;
+}
+
+.more-bio {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+.music-link {
+  text-align: center;
+  margin-left: 105vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-family: 'Bree Serif', serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.editional-info {
+  position: relative;
+  top: 15vh;
+  right: 2vh;
+}
+
+#Morrison {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
