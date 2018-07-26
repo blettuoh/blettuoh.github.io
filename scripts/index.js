@@ -7,19 +7,23 @@ $(document).ready(function() {
     dots: true,
     arrows: true,
     infinite: false,
+    touchMove: false,
+    touchThreshold: 1,
     responsive: [
       {
         breakpoint: 768,
         settings: {
+          touchMove: true,
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3
+          slidesToShow: 2
         }
       },
       {
         breakpoint: 480,
         settings: {
+          touchMove: true,
           arrows: false,
           centerMode: true,
           centerPadding: '40px',

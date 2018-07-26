@@ -1,12 +1,11 @@
 .grid-container {
   display: grid;
-  height: 50vh;
-  width: 90vh;
-  margin-left: 10vh;
-  margin-top: 20vh;
-  position: absolute;
+  height: 50vmin;
+  width: 90vmin;
+  margin-top: 5vh;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 30% 70%;
+  padding: 2vh;
 }
 
 .a {
@@ -37,9 +36,21 @@
 
 .artist-bio {
   /* padding-left: 100vh; */
-  margin-left: 105vh;
   /* border: 2px solid orange; */
   padding: 1vh;
+}
+
+.artist-bio h1 {
+  line-height: 2;
+  font-size: 4vh;
+}
+
+.editional-info p {
+  font-size: 2.3vh;
+}
+
+.editional-info a {
+  font-size: 2.3vh;
 }
 
 .more-bio {
@@ -49,7 +60,6 @@
 
 .music-link {
   text-align: center;
-  margin-left: 105vh;
   padding-top: 5vh;
   padding-bottom: 5vh;
   font-family: 'Bree Serif', serif;
@@ -61,14 +71,24 @@ a {
 }
 
 .editional-info {
-  position: relative;
-  top: 15vh;
   margin: 2vh 2vh;
   border: 2px solid orange;
-  float: left;
 }
 
 #Morrison {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    height: 55vmin;
+    width: 85vmin;
+  }
 }

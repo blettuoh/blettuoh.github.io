@@ -202,3 +202,15 @@
     opacity: .75;
     color: black;
 }
+
+.slick-dots li button {
+  width: inherit !important;
+  height: inherit !important;
+  margin: inherit !important;
+}
+
+@media (max-width: 400px) {
+  .slick-dots li {
+    width: 10px;
+  }
+}

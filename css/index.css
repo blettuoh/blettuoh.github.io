@@ -6,7 +6,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* first slide */
@@ -23,8 +23,16 @@ html, body {
 .title {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  padding-top: 200px;
+  padding-top: 20vh;
   color: antiquewhite;
+}
+
+.title h1 {
+  font-size: 4vh;
+}
+
+.title p {
+  font-size: 2.3vh;
 }
 
 .quote {
@@ -42,7 +50,6 @@ html, body {
 
 .secondSlide {
   width: 100%;
-  height: 100%;
 }
 
 hr {
@@ -60,9 +67,17 @@ hr {
   overflow-y: hidden;
 }
 
+.text p {
+  font-size: 2.3vh;
+}
+
 .images {
   margin: 0 20px;
   margin-top: 2.5vh
+}
+
+.slides a {
+  outline: none;
 }
 
 .faces {
@@ -107,7 +122,6 @@ button:before {
   display: none;
   height: 100%;
   width: 100%;
-  position: relative;
 }
 
 .activeSlide {
