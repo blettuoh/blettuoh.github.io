@@ -6,7 +6,7 @@
   margin-top: 20vh;
   position: absolute;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50% 80%;
+  grid-template-rows: 30% 70%;
 }
 
 .a {
@@ -38,7 +38,7 @@
 .artist-bio {
   /* padding-left: 100vh; */
   margin-left: 105vh;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding: 1vh;
 }
 
@@ -63,7 +63,9 @@ a {
 .editional-info {
   position: relative;
   top: 15vh;
-  right: 2vh;
+  margin: 2vh 2vh;
+  border: 2px solid orange;
+  float: left;
 }
 
 #Morrison {
