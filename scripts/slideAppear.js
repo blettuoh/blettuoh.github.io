@@ -2,6 +2,9 @@ const thirdSlide = document.querySelector('.third-slide');
 const activeSlide = Array.from(
 	document.getElementsByClassName('activeSlide')
 );
+const animatedPhoto = Array.from(
+	document.getElementsByClassName('grid-container')
+);
 let insertedSlide, currentSlide, clickedSlide;
 const photos = Array.from(
 	document.getElementsByClassName('slides')
@@ -27,6 +30,7 @@ photos.forEach((x, i) => {
 		insertedSlide.classList.add('activeSlide');
 		thirdSlide.appendChild(insertedSlide);
 		thirdSlide.classList.add('third-slide-height');
+		animatedPhoto.classList.add('grid-container-2');
     currentSlide = x;
 	});
 });
