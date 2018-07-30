@@ -8,7 +8,7 @@
   grid-column: 2 / span 1;
   background-image: url('../assets/images/third-slide/brian-jones-pics/brian-jones-play.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .j {

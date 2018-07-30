@@ -4,7 +4,7 @@
   width: 90vmin;
   margin-top: 5vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 30% 70%;
+  grid-template-rows: 40% 60%;
   padding: 2vh;
 }
 
@@ -68,6 +68,12 @@
 a {
   text-decoration: none;
   color: black;
+  transition: .5s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(245, 124, 10);
 }
 
 .editional-info {
