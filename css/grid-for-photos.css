@@ -12,14 +12,14 @@
 
 .grid-container-2 {
   animation-name: go-out;
-  margin-left: -305vmin;
-  opacity: 0.3;
+  margin-left: -265vmin;
+  opacity: 0;
 }
 
 @keyframes go-out {
-  from {margin-left: -305vmin;}
+  from {margin-left: -265vmin;}
   to {margin-left: 0vmin;}
-  from {opacity: 0.3;}
+  from {opacity: 0;}
   to {opacity: 1;}
 }
 
