@@ -6,19 +6,19 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 40% 60%;
   padding: 2vh;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-fill-mode: forwards;
 }
 
 .grid-container-2 {
   animation-name: go-out;
-  margin-left: -265vmin;
+  /* margin-left: -265vmin; */
   opacity: 0;
 }
 
 @keyframes go-out {
-  from {margin-left: -265vmin;}
-  to {margin-left: 0vmin;}
+  /* from {margin-left: -265vmin;}
+  to {margin-left: 0vmin;} */
   from {opacity: 0;}
   to {opacity: 1;}
 }
